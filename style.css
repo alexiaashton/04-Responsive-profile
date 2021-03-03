@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #435560;
   text-decoration: none;
-  background-color: #edeef7
+  background-color: #edeef7;
 }
 
 p{
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .round-profile {
-  border-radius: 75px
+  border-radius: 75px;
 }
 
 #btn-rose {
