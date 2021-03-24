@@ -2,7 +2,11 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #435560;
   text-decoration: none;
-  background-color: #edeef7
+  background-color: #edeef7;
+}
+
+p{
+  font-family:'Raleway', sans-serif;
 }
 
 h1 {
@@ -17,10 +21,11 @@ h2 {
 
 a {
   text-decoration: none;
+  font-size: 45px
 }
 
-.i-size {
-  size: 50px;
+a:hover {
+  color: gray;
 }
 
 .container{
@@ -40,7 +45,6 @@ a {
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
 }
 
 .list-inline {
@@ -49,18 +53,23 @@ a {
 }
 
 .round-profile {
-  border-radius: 50px;
+  border-radius: 75px;
 }
 
-.btn-rose {
+#btn-rose {
   background-color: #7868e6;
   color: whitesmoke;
   border-radius: 5px;
-  padding: 10px
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px auto;
+  font-size: 20px;
+  opacity: 0.5;
 }
 
-.btn-rose:hover {
-  background-color: black
+#btn-rose:hover {
+  background-color: black;
+  opacity: 1.0;
 }
 
 @media (max-width: 960px) {
